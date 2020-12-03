@@ -1,0 +1,8 @@
+#!/bin/bash
+#find ./ -type f -name "*.txt" -exec grep 'Geek'  {} \;
+
+filename=$(find . -name llr_industries)
+echo $filename
+cat $filename
+
+exit 0
